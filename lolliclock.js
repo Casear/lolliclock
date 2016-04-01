@@ -262,6 +262,7 @@
         plate.prepend(canvas);
 
         // Reset mouse cursor
+        $(document.body).removeClass('lolliclock-clickable');
         $(document.body).removeClass('lolliclock-moving');
 
         // Unbind mousemove event
